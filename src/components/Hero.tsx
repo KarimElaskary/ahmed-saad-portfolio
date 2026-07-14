@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="flex flex-col gap-8 text-center lg:text-left">
           <div className="space-y-2">
-            <p className="text-primary font-bold tracking-widest uppercase text-sm">Shopify E-commerce Expert</p>
+            <p className="text-primary font-bold tracking-widest uppercase text-sm">E-commerce Expert</p>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">
               Hey, 👋 I'm<br />
               <span className="bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
 
           <p className="text-white/60 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-            I don't just build Shopify stores; I engineer 
+            I don't just build stores; I engineer 
             <span className="text-white font-medium"> high-converting digital experiences </span> 
             that turn visitors into loyal customers. Backend power meets premium design.
           </p>
