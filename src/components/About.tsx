@@ -6,15 +6,17 @@ import mysql from "../assets/mysql.png";
 import shopify from "../assets/shopify.png";
 import liquid from "../assets/liquid.png";
 import github from "../assets/github.png";
+import easyorder from "../assets/easyorder.webp"
 import type { Skill } from "../types";
 
 const skills: Skill[] = [
+  { icon: shopify, title: "Shopify" },
+  { icon: easyorder, title: "Easyorder" },
   { icon: html, title: "HTML5" },
   { icon: css, title: "CSS3" },
   { icon: javascript, title: "Javascript" },
   { icon: php, title: "PHP" },
   { icon: mysql, title: "MySQL" },
-  { icon: shopify, title: "Shopify" },
   { icon: liquid, title: "Liquid" },
   { icon: github, title: "GitHub" },
 ];
@@ -62,7 +64,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/2 grid grid-cols-3 sm:grid-cols-4 gap-4">
+        <div className="lg:w-1/2 grid grid-cols-3 gap-4">
           {skills.map((skill) => (
             <div
               key={skill.title}
