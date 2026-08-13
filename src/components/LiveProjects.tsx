@@ -10,21 +10,23 @@ import ferola from '../assets/ferola.jpeg';
 import massage from '../assets/massage.jpeg';
 import flora from '../assets/flora.jpeg';
 import otakuverse from '../assets/otakuverse.jpeg';
+import fionka from '../assets/fionka.jpeg'
+import livabed from '../assets/livabed.jpeg'
 
 import DemoProjects from './DemoProjects';
 
 const projects: Project[] = [
   {
-    image: otakuverse,
-    title: "Otakuverse – Fashion Store (easy order)",
-    description: "Designed and developed a complete e-commerce experience for Otakuverse, an anime fashion brand. The project included UI/UX design, responsive web layouts, HTML/CSS customization, brand identity integration, product page optimization, and user journey enhancements. The final result delivers a visually engaging shopping experience that captures the spirit of anime culture while maintaining usability, performance, and accessibility.",
-    demo: "https://otakuverse.myeasyorders.com/",
+    image: livabed,
+    title: "Livabed — Luxury Sleep Experience ( Shopify )",
+    description: "A refined Shopify experience crafted for premium comfort and effortless shopping. From the visual identity to product presentation and conversion-focused UX, every detail was designed to give Livabed a luxury, hotel-inspired presence while making the journey from discovery to purchase smoother and more intuitive. Shopify Development · UX/UI · CRO · SEO · E-commerce Strategy",
+    demo: "https://livabed.com/",
   },
   {
-    image: flora,
-    title: "Flora Gallery - Handmade Jewelry Store (easy order)",
-    description: "Designed and developed a modern e-commerce store for Flora Gallery, a handmade jewelry brand. The project focused on creating a premium shopping experience through custom UI design, responsive layouts, HTML/CSS customization, brand identity implementation, and user-centered design. Every detail was crafted to reflect the brand's elegant and natural aesthetic while ensuring a smooth and intuitive user experience",
-    demo: "https://floragallery.store/",
+    image: fionka,
+    title: "Fionka Store — Luxury Footwear - Shopify",
+    description: "A complete Shopify experience designed for a modern women’s footwear brand, combining luxury aesthetics, clean UX, and conversion-focused e-commerce strategy. The store was restructured around premium visual storytelling, curated collections, product discovery, and a seamless shopping journey across Desktop & Mobile. A key feature is the dynamic product-specific Size Guide, where measurements adapt to each footwear model instead of relying on a traditional static size chart. Shopify Development · UX/UI · CRO · Custom Liquid · Responsive Design",
+    demo: "https://fionkastore.com/",
   },
   {
     image: ferola,
@@ -33,10 +35,22 @@ const projects: Project[] = [
     demo: "https://www.ferolaswim.shop/",
   },
   {
+    image: flora,
+    title: "Flora Gallery - Handmade Jewelry Store (easy order)",
+    description: "Designed and developed a modern e-commerce store for Flora Gallery, a handmade jewelry brand. The project focused on creating a premium shopping experience through custom UI design, responsive layouts, HTML/CSS customization, brand identity implementation, and user-centered design. Every detail was crafted to reflect the brand's elegant and natural aesthetic while ensuring a smooth and intuitive user experience",
+    demo: "https://floragallery.store/",
+  },
+  {
     image: massage,
     title: "Massage Manzely - landing page (Shopify)",
     description: "Designed and developed a high-converting Shopify landing page for a licensed home & hotel massage service in Saudi Arabia. Built with a strong focus on CRO, UX, SEO, bilingual support, and WhatsApp lead generation. Every section was strategically crafted to build trust, address customer pain points, and guide visitors toward booking a session.",
     demo: "https://massagemanzely.com/",
+  },
+  {
+    image: otakuverse,
+    title: "Otakuverse – Fashion Store (easy order)",
+    description: "Designed and developed a complete e-commerce experience for Otakuverse, an anime fashion brand. The project included UI/UX design, responsive web layouts, HTML/CSS customization, brand identity integration, product page optimization, and user journey enhancements. The final result delivers a visually engaging shopping experience that captures the spirit of anime culture while maintaining usability, performance, and accessibility.",
+    demo: "https://otakuverse.myeasyorders.com/",
   },
 ];
 
